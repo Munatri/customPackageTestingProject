@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Munatri.Baruah@ibm.com</value>
-    <value name="createdDate">2026-09-25T11:38:04.256850850Z</value>
-    <value name="lastModifiedDate">2026-09-25T11:38:04.256850850Z</value>
+    <value name="lastModifiedBy">Munatri.Baruah@ibm.com</value>
+    <value name="lastModifiedDate">2026-09-25T11:39:37.601373461Z</value>
     <value name="displayName">tpt</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -68,6 +67,21 @@
           <null name="nsName"/>
           <value name="itemType">flowService</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <record name="selectedRuntime" javaclass="com.wm.util.Values">
+          <value name="agentName">LOCAL</value>
+          <value name="displayName">LOCAL</value>
+          <value name="agentGroup">default</value>
+          <value name="executionPlaneType">local</value>
+        </record>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
     <value name="modifiedBy">Munatri.Baruah@ibm.com</value>
