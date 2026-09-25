@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.custompackagetesting.integrations:daf1">
+  <COMMENT></COMMENT>
+  <STEP_LEVEL_PROPERTIES>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <number name="ttl" type="Long">120</number>
+    <Boolean name="isAsync">false</Boolean>
+  </record>
+</Values>
+</STEP_LEVEL_PROPERTIES>
+</INVOKE>
+</FLOW>
