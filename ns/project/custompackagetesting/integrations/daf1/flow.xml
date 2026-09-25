@@ -89,6 +89,25 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">dr</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">project.custompackagetesting.documenttypes:doc1</value>
+      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -97,18 +116,16 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">test</value>
-</Values>
-</DATA>
-</MAPSET>
+<MAPCOPY FROM="/dr;4;0;project.custompackagetesting.documenttypes:doc1/str1;1;0" TO="/message;1;0">
+</MAPCOPY>
 </MAP>
 
 <MAP MODE="OUTPUT">
   <COMMENT></COMMENT>
 </MAP>
+</INVOKE>
+
+<INVOKE NAME="Reference Data" SERVICE="project.custompackagetesting.referencedata:ref1">
+  <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
