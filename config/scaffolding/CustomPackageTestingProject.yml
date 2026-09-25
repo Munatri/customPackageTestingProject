@@ -23,7 +23,7 @@ packages:
   gitUsername: Munatri
   gitBranch: main
 services:
-- serviceName: project.custompackagetesting.integrations:daf1
+- serviceName: project.custompackagetesting.integrations:Copy_daf1
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
@@ -40,6 +40,30 @@ services:
   - name: WmPublic
     version: 12.1.0.0.1208
 - serviceName: project.custompackagetesting.referencedata:ref1
+  packages:
+  - name: CustomPackageTestingProject
+    version: "1.0"
+  - name: customPackageGit25Sept
+    version: "1.0"
+  - name: customPackageDef25Sept
+    version: "1.0"
+  - name: PublicPrivateCheck
+    version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1208
+- serviceName: project.custompackagetesting.integrations:daf1
+  packages:
+  - name: CustomPackageTestingProject
+    version: "1.0"
+  - name: customPackageGit25Sept
+    version: "1.0"
+  - name: customPackageDef25Sept
+    version: "1.0"
+  - name: PublicPrivateCheck
+    version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1208
+- serviceName: project.custompackagetesting.integrations:p
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
