@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="3.2" CLEANUP="false">
+<FLOW VERSION="3.2" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<INVOKE NAME="INTEGRATIONS" SERVICE="project.custompackagetesting.integrations:daf1">
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.custompackagetesting.integrations:child">
   <COMMENT></COMMENT>
   <STEP_LEVEL_PROPERTIES>
 

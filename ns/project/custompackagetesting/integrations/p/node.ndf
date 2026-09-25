@@ -45,15 +45,14 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Munatri.Baruah@ibm.com</value>
-    <value name="createdDate">2026-09-25T10:47:11.596203504Z</value>
-    <value name="lastModifiedDate">2026-09-25T10:47:11.596203504Z</value>
+    <value name="lastModifiedBy">Munatri.Baruah@ibm.com</value>
+    <value name="lastModifiedDate">2026-09-25T10:49:49.092000691Z</value>
     <value name="displayName">p</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="name">daf1</value>
-        <value name="displayName">daf1</value>
+        <value name="name">child</value>
+        <value name="displayName">child</value>
         <value name="itemType">INTEGRATIONS</value>
       </record>
     </record>
