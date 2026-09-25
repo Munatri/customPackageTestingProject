@@ -8,4 +8,10 @@ packages:
   gitUsername: Munatri
   gitBranch: main
 - name: customPackageDef25Sept
+  version: "1.0"
   gitBranch: master
+- name: customPackageGit25Sept
+  gitServerName: GithubOrigin
+  gitUrl: https://github.com/Munatri
+  gitUsername: Munatri
+  gitBranch: main
