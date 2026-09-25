@@ -27,6 +27,7 @@ services:
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
+  - name: globalVar_var1
   - name: customPackageGit25Sept
     version: "1.0"
   - name: customPackageDef25Sept
@@ -43,6 +44,7 @@ services:
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
+  - name: globalVar_var1
   - name: customPackageGit25Sept
     version: "1.0"
   - name: customPackageDef25Sept
@@ -55,6 +57,7 @@ services:
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
+  - name: globalVar_var1
   - name: customPackageGit25Sept
     version: "1.0"
   - name: customPackageDef25Sept
@@ -67,6 +70,7 @@ services:
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
+  - name: globalVar_var1
   - name: customPackageGit25Sept
     version: "1.0"
   - name: customPackageDef25Sept
@@ -79,6 +83,7 @@ services:
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
+  - name: globalVar_var1
   - name: customPackageGit25Sept
     version: "1.0"
   - name: customPackageDef25Sept
@@ -91,6 +96,7 @@ services:
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
+  - name: globalVar_var1
   - name: customPackageGit25Sept
     version: "1.0"
   - name: customPackageDef25Sept
@@ -103,8 +109,6 @@ services:
   packages:
   - name: PublicPrivateCheck
     version: "1.0"
-  - name: WmPublic
-    version: 12.1.0.0.1208
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
@@ -113,6 +117,7 @@ services:
   packages:
   - name: CustomPackageTestingProject
     version: "1.0"
+  - name: globalVar_var1
   - name: customPackageGit25Sept
     version: "1.0"
   - name: customPackageDef25Sept
