@@ -7,3 +7,5 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+- name: customPackageDef25Sept
+  gitBranch: master
